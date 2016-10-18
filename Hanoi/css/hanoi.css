@@ -1,0 +1,48 @@
+#hanoi {
+  width: 700px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+li {
+  list-style: none;
+  padding-left: 0;
+  list-style-type: none;
+  background-color: #445893;
+  margin: 5px auto;
+  height: 30px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: helvetica;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tower {
+  width: 200px;
+  height: 120px;
+  border-bottom: solid black 15px;
+  padding: 0;
+  display: inline-block;
+  margin: 10px;
+  bottom:0;
+}
+
+.tower:hover {
+  border-bottom-color: blue;
+}
+
+.disk1 {
+  width: 50px;
+}
+
+.disk2 {
+  width: 100px;
+}
+
+.disk3 {
+  width: 150px;
+}

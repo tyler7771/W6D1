@@ -1,0 +1,54 @@
+#ttt {
+  width: 640px;
+  height: 640px;
+  margin: 0 auto;
+}
+
+ul li a, figcaption a {
+  color: inherit;
+  margin: 0;
+}
+
+h1 {
+  font-family: helvetica;
+  display: block;
+  text-align: center;
+}
+
+.square {
+  list-style: none;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  border: 5px solid black;
+  display: block;
+}
+
+.square:hover {
+  background-color: yellow;
+}
+
+.xmarked {
+  background-color: white;
+  text-align: center;
+  line-height: 160px;
+  font-family: helvetica;
+  color: gold;
+  font-size: 200px;
+}
+
+.omarked {
+  background-color: white;
+  text-align: center;
+  line-height: 160px;
+  font-family: helvetica;
+  color: silver;
+  font-size: 200px;
+}
+
+.group {
+  display: inline-flex;
+  /*width: 650px;*/
+  /*padding: 0;*/
+  margin: 0;
+}
